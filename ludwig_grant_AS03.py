@@ -1,3 +1,12 @@
+# File Name: ludwig_grant_AS03.py
+# File Path: /home/ludwigg/Python/PyRpi_AS3/ludwig_grant_AS03.py
+# Run Command: sudo python3 /home/ludwigg/Python/PyRpi_AS3/ludwig_grant_AS03.py
+
+# Grant Ludwig
+# 10/04/2019
+# AS.03
+# Magic 8-Ball
+
 import random
 
 choices = ["It is certain",
@@ -21,5 +30,5 @@ choices = ["It is certain",
            "Outlook not so good",
            "Very doubtful"]
 
-input("What do you ask the Magic 8 Ball? ")
+input("What do you ask the Magic 8-Ball? ")
 print(random.choice(choices))
